@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+position: relative;
+background: #000000;
+color: #fff;
+height: 100vh;
+width: 100%;
+background-image: url(../Image/Background.jpg);
+background-repeat: no-repeat;
+background-position: right;
+}
+    
+
+body nav{
+width: 100%;
+padding: 5px 1%;
+display: flex;
+align-items: center;
+border-radius: 5px;
+position:fixed;
+background-color:black;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: #e80f88;
+border-bottom-width: 7px;
+}
+
+.logocamoes{
+height: 45px;
+border-radius: 5px;
+margin: 0 35px;
+}
+
+.list{
+    flex: 1;
+    text-align: right;
+    margin-right: 225px;
+    
+}
+
+.list li{
+    display: inline-block ;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+#name1 ,#name2 ,#name3 ,#name4, #name5 ,#name6{
+    color: #fff;
+    text-decoration: none;
+    height: 152px;
+    transition:border 1s;
+      
+}
+
+#name1:hover ,#name2:hover ,#name3:hover ,#name4:hover, #name5, #name6:hover{
+    border-bottom: 3px solid #e80f88;
+  
+}
+
+nav button:hover{
+    
+background-color: #e80f88;
+
+}
+
+nav button{
+margin:0 15px;
+background-color:#115AC1;
+border: none;
+height: 30px;
+color: #fff;
+border-radius: 30px;
+transition:background 0.9s;
+}
+
+nav button p{
+    margin: 3px;
+}
+
+.box2{
+	height: 98vh;
+	width: auto;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	align-items: center;
+}
+
+.files{
+	height: 88vh;
+	width:auto;
+	margin: 5px;
+	padding: 2%;
+}
+table{
+	border-radius: 20px;
+	width: 110vh;
+	text-align: center;
+	padding: 20px;
+}
+
+th{
+	border: 1px solid #F34E51;
+	border-radius: 20px;
+	padding: 15px;
+	background-color: aliceblue;
+	color: #e80f88;
+	text-shadow: 0px 1px 1px black; 
+}
+
+td{
+	background-color: aliceblue;
+	border-radius: 20px;
+	height: 25px;
+	color: black;
+}
+
+td a{
+	text-decoration: none;
+	color: black;
+}
+
+td a:hover{
+	color: #e80f88;
+}
+

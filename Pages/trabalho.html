@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="trabalho.css">
+
+	<meta charset="UTF-8">
+	<title>Trabalho Final</title>
+</head>
+
+<body>
+	<nav>
+		<a href="https://liceucamoes.wixsite.com/camoes"><img src="../Image/school.png" alt="logo_escamoes"
+				class="logocamoes" /></a>
+		<ul class="list">
+			<li><a id="name1" href="../index.html">Página inicial</a></li>
+			<li><a id="name2" href="trabalho.html">Trabalho</a></li>
+			<li><a id="name5" href="./portfolio.html">Portfólio</a></li>
+			<li><a id="name6" href="./compilador.html">Compilador</a></li>
+			<li><a id="name3" href="webgrafia.html">Webgrafia</a></li>
+			<li><a id="name4" href="sobre.html">Sobre</a></li>
+		</ul>
+		<a href="../Trabalho-Final.exe"><button type="button">
+				<p>Relatório</p>
+			</button></a>
+	</nav>
+	<!-- From this line start main code-->
+	<main>
+		<table class="boxes">
+			<tr>
+				<!-- this it the first box from the first line -->
+				<td class="box">
+					<h2 class="fistTitle">O que é <br> Java</h2>
+					<br>
+					<button data-modal-target="#modal" class="btn1" id="btn1">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Sintaxe <br> de Java</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal1" id="btn2">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Saída <br> "Output"</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal2" id="btn3">Mais</button>
+				</td>
+
+			</tr>
+
+			<tr>
+				<td class="box">
+					<h2 class="fistTitle">Comentários <br> em <br> Java</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal3" id="btn4">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Variáveis <br> em <br> Java</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal4" id="btn5">Mais</button>
+				</td>
+				<td class="box">
+					<h2 class="fistTitle">Tipos <br> de <br> Dados</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal5" id="btn6">Mais</button>
+				</td>
+			</tr>
+			<tr>
+				<td class="box">
+					<h2 class="fistTitle">Palavras Reservadas</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal6" id="btn7">Mais</button>
+				</td>
+				<td class="box">
+					<h2 class="fistTitle">Operadores de Java</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal7" id="btn8">Mais</button>
+				</td>
+				<td class="box">
+					<h2 class="fistTitle">String de Java</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal8" id="btn9">Mais</button>
+				</td>
+			</tr>
+			<tr>
+				<td class="box">
+					<h2 class="fistTitle">Class Math</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal9" id="btn10">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Scanner</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal10" id="btn11">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Ciclos <br> "Loop"</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal11" id="btn12">Mais</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="box">
+					<h2 class="fistTitle"> JOptionPane </h4>
+					</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal12" id="btn13">Mais</button>
+				</td>
+
+				<td class="box">
+					<h2 class="fistTitle">Classes e Objectos</h2>
+					<br>
+					<button class="btn1" data-modal-target="#modal13" id="btn14">Mais</button>
+				</td>
+
+			</tr>
+		</table>
+
+		<!-- from this line the modle or box start -->
+
+		<div id="modal">
+			<div class="modal-header">
+				<div class="modal-title">😀 O que é Java 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size:larger; padding:2%;">Java é uma linguagem de programação orientada a objectos e uma
+					plataforma
+					de software amplamente utilizada que funciona em milhares de milhões de
+					dispositivos, incluindo computadores portáteis, dispositivos móveis,
+					consolas de jogos, dispositivos médicos e muitos outros. As regras e
+					sintaxe do Java são baseadas nas linguagens C e C++.</p>
+				<center><img src="../content img/java.1.png" alt="java" height="300px" style="padding:1%;"></center>
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+
+		<div id="modal1">
+			<div class="modal-header">
+				<div class="modal-title">😀 Sintaxe de Java 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<div
+					style=" width: 50%; padding: 2%; background-color:rgb(255, 200, 132); text-align: center; border-radius: 20px;">
+					public class Main {<br>
+					public static void main(String[] args) {<br>
+					System.out.println("Hello World");<br>
+					}<br>
+					}<br>
+				</div>
+				<img src="../content img/sintaxe.png" alt="sintaxt" height="400px">
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal2">
+			<div class="modal-header">
+				<div class="modal-title">😀 Saída "output" 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">println</th>
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">printf</th>
+					</tr>
+					<tr style="text-align: center; align-items: center;">
+						<td style="background-color:#D2C182; height: 50vh; width:90vh; border-radius: 20px; ">
+							System.out.println("Olá! ");<br>
+							System.out.println("imprimir na mesma linha.");
+						</td>
+						<td style="background-color:#D2C182; height: 50vh; width:90vh; border-radius: 20px;">
+							System.out.print("Hello World! ");<br>
+							System.out.print("I will print on the same line.");<br>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal3">
+			<div class="modal-header">
+				<div class="modal-title">😀 Comentários em Java 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">Comentário
+						</th>
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">Comentário
+						</th>
+					</tr>
+					<tr style="text-align: center; align-items: center;">
+						<td style="background-color:#D2C182; height: 50vh; width:90vh; border-radius: 20px; ">
+							/* <br>
+							Ficha 10: Exercício 8 <br>
+							Autor: Rafael Amado <br>
+							Data: 01/11/2022 <br>
+							*/ <br>
+
+						</td>
+						<td style="background-color:#D2C182; height: 50vh; width:90vh; border-radius: 20px;">
+							<br>
+							// Ficha 10: Exercício 8 <br>
+							// Autor: Rafael Amado <br>
+							// Data: 01/11/2022 <br>
+							<br>
+						</td>
+					</tr>
+				</table>
+
+
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal4">
+			<div class="modal-header">
+				<div class="modal-title">😀 Variáveis 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+			
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px; ">Variáveis</th>
+					</tr>
+					<tr style="text-align: center; align-items: center;">
+						<td style="background-color:#D2C182; height: 50vh; width:90vh; border-radius: 20px; text-align: left; padding-left: 20%;">
+							String - armazena texto, tal como "Olá". Os valores das cordas são rodeados por aspas duplas.<br>
+							int - armazena números inteiros (números inteiros), sem decimais, tais como 123 ou -123.<br>
+							float - armazena números de pontos flutuantes, com decimais, tais como 19,99 ou -19,99.<br>
+							char - armazena caracteres únicos, tais como 'a' ou 'B'. Os valores dos caracteres são rodeados por aspas simples.<br>
+							boolean - armazena valores com dois estados: verdadeiro ou falso.<br>
+						</td>
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal5">
+			<div class="modal-header">
+				<div class="modal-title">
+					<h2>😀 Tipos de Dados 😀</h2>
+				</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">Dados
+							primitivos</th>
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">Dados
+							não-primitivos</th>
+					</tr>
+					<tr style="   text-align: center; align-items: center;">
+						<td
+							style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; text-align: start; padding-left: 23%; ">
+							<li>byte</li>
+							<li>short</li>
+							<li>int</li>
+							<li>long</li>
+							<li>float</li>
+							<li>double</li>
+							<li>boolean</li>
+							<li>char</li>
+						</td>
+						<td
+							style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; text-align: start; padding-left: 23%; ">
+							<li>String</li>
+							<li>Array</li>
+							<li>Classes</li>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px; padding-left: 20%;">
+							<h3 style="margin: 5px;"><u>Exemplo</u></h3>
+							<p>int Num = 10; <br>
+								float FloatNum = 5.11f; <br>
+								char Letter = 'A'; <br>
+								boolean Bool = true; <br>
+							</p>
+						</td>
+						<td
+							style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px; padding-left: 10%;">
+							<h3 style="margin: 5px;"><u>Exemplo</u></h3>
+							<p>String greeting = "Hello"; <br>
+								String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; <br>
+								String Text = "Trabalho"; <br>
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal6">
+			<div class="modal-header">
+				<div class="modal-title">😀 Palavras Reservadas 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;">Palavras reservadas são as palavras para as quais não
+					podemos criar variáveis em java.</p>
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="height: 50vh; width:90vh; border-radius: 20px; text-align: left;padding-left: 20%;">
+
+							<h3 style="margin: 5px;"><u>Exemplo</u></h3>
+							<p style="font-size: 25px"> int int = 10;<br>
+								String String = "Hee";<br>
+								double double = 1.2;<br>
+								float float = 1.00f;<br>
+								boolean boolean = true; <br>
+								int for = 10;
+
+							</p>
+							<img src="../content img/wrong.png" alt="wrong" height="80px"
+								style="margin: 5%; border-radius: 20px; float: left;">
+						</th>
+						<th style="height: 50vh; width:90vh; border-radius: 20px; text-align: left;padding-left: 20%;">
+
+							<h3 style="margin: 5px;"><u>Exemplo</u></h3>
+							<p style="font-size: 25px" 66>
+								int number = 10;<br>
+								String word = "Hee";<br>
+								double num_d = 1.2;<br>
+								float num1_d = 1.00f;<br>
+								boolean bool = true; <br>
+								int number1 = 10;
+							</p>
+							<img src="../content img/right.png" alt="right" height="70px"
+								style="margin: 5%; border-radius: 20px; float: left;">
+						</th>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal7">
+			<div class="modal-header">
+				<div class="modal-title">😀 Operadores de Java 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;">Os operadores são utilizados para realizar operações
+					sobre variáveis e valores.</p>
+
+				<center><img style="margin: 2%;" src="../content img/ligic.png" alt="Operadores" height="430px">
+				</center>
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal8">
+			<div class="modal-header">
+				<div class="modal-title">😀 String de Java 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;">String é um conjuntos de caracteres <br> e classe string
+					possui métodos que permitem a manipulação da sua cadeia de caracteres.</p>
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<td style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px;">
+							<u>
+								<p>Uma variável de string</p>
+							</u>
+							<p style="padding: 2%; background-color: beige; margin: 5%">String Nome = "Rafael Amado";
+								<br> System.out.println(Nome);</p>
+
+						</td>
+
+						<td style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px;">
+
+							<u>
+								<p>Métodos de String</p>
+							</u>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+								.length(); <br>
+								.toUpperCase(); <br>
+								.toLowerCase();<br>
+								.indexOf();<br>
+								.replace();<br>
+								.equals();<br>
+								.endwith();
+							</p>
+
+						</td>
+
+					</tr>
+					<tr>
+						<td style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>Exemplo</u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+								String Amigo = "Rajendra";<br>
+								String Nome = "Rafael";<br>
+								System.out.println("o "+Amigo+" e "+Nome+" são Amigos");<br>
+							</p>
+						</td>
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>Exemplo</u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">String Nome = "Rafael
+								Amado"; <br> System.out.println(Nome.length()); <br>
+								System.out.println(Nome.toUpperCase()); <br>
+								System.out.println(Nome.toLowerCase());<br>
+								System.out.println(Nome.indexOf("R"));<br>
+								System.out.println(Nome.replace("R","a"));<br>
+								System.out.println(Nome.equals("Rafael Amado"));
+							</p>
+
+						</td>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal9">
+			<div class="modal-header">
+				<div class="modal-title">😀 Class Math 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;">A classe Java Math fornece/tem vários métodos para
+					trabalhar em cálculos matemático.</p>
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+
+						<td style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; ">
+
+							<u>
+								<p>Métodos de class math</p>
+							</u>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%;  text-align: left;">
+								Math.sqrt() --> para retornar a raiz quadrada de um número.<br>
+								Math.cbrt() --> para retornar a raiz do cubo de um número.<br>
+								Math.pow() --> retorna do método pow() é duplo.<br>
+								Math.random() --> para retornar um número de tipo duplo pseudoaleatório maior ou igual a
+								0,0 e menor que 1,0<br>
+								Math.sin() --> para retornar o seno trigonométrico de um ângulo. <br>
+								Math.cos() --> para retornar o cosseno trigonométrico de um ângulo. <br>
+								etc
+							</p>
+						</td>
+
+					</tr>
+					<tr>
+
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>Exemplo</u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+								double x = 28;<br>
+								double y = 4;<br>
+								System.out.println("Número máximo de x e y é: " +Math.max(x, y));<br>
+								System.out.println("A raiz quadrada de y é: " + Math.sqrt(y));<br>
+								System.out.println("Potência de x e y é: " + Math.pow(x, y));<br>
+								System.out.println("Logaritmo de x é: " + Math.log(x));<br>
+								System.out.println("Logaritmo de y é: " + Math.log(y));<br>
+							</p>
+
+						</td>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal10">
+			<div class="modal-header">
+				<div class="modal-title"> 😀 Scanner 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;">A classe Scanner do pacote java.util é utilizada para
+					ler dados de entrada de diferentes fontes como fluxos de entrada, utilizadores, ficheiros.</p>
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+
+						<td style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; ">
+
+							<u>
+								<p>import java.util.Scanner;</p>
+							</u>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%;  text-align: left;">
+								nextInt() --> lê um valor int do utilizador.<br>
+								nextFloat() --> lê um valor de flutuação do utilizador.<br>
+								nextBoolean() -->lê um valor booleano do utilizador.<br>
+								nextLine() -->lê uma linha de texto do utilizador.<br>
+								seguinte() -->lê uma palavra do utilizador.<br>
+								nextByte() -->lê um valor de byte do utilizador.<br>
+								nextDouble() -->lê um valor duplo do utilizador.<br>
+								nextShort() -->lê um pequeno valor do utilizador.<br>
+								nextLong() -->lê um longo valor do utilizador.<br>
+							</p>
+						</td>
+
+					</tr>
+					<tr>
+
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>Exemplo</u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+								Scanner input = new Scanner(System.in);<br>
+								System.out.print("Introduza o seu nome: ");<br>
+								String name = input.nextLine();<br>
+								System.out.println("O meu nome é " + name);<br>
+							</p>
+
+						</td>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal11">
+			<div class="modal-header">
+				<div class="modal-title">😀 Ciclos / Loops 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<p style="font-size: 25px; text-align: center;"> Ciclos é usado para executar um grupo de instruções ou
+					um bloco de código várias vezes, sem escrevê-lo repetidamente.</p>
+
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+
+						<th style=" background-color: aqua; height: 65vh; width:90vh; border-radius: 20px;">
+							<p style="font-size: 50px; font-weight: bold; background-color:#D2C182; "> for </p>
+							<br>
+							<p
+								style="font-size: larger; font-weight: bold; background-color:#D2C182; height:200px; padding: 10%; ">
+
+								for (int i = 0; i < 10; i++) { System.out.println("ola "+i);
+}
+					</p>
+				</th>
+				
+				<th style=" background-color: aqua;height: 65vh; width:90vh; border-radius: 20px;">
+									<p style="font-size: 50px; font-weight: bold; background-color:#D2C182; "> while
+									</p>
+									<br>
+									<p
+										style="font-size: larger; font-weight: bold; background-color:#D2C182; height:200px; padding: 10%; ">
+
+										int i = 0;<br>
+										while (i < 10) { System.out.println("ola "+i);
+  					i++;
+						}
+					</p>
+				</th>
+				
+			
+					<th style=" background-color: aqua; height: 65vh; width:90vh; border-radius: 20px;">
+											<p style="font-size: 50px; font-weight: bold; background-color:#D2C182; ">
+												do while </p>
+											<br>
+											<p
+												style="font-size: larger; font-weight: bold; background-color:#D2C182; height:200px; padding: 10%; ">
+
+												int x = 1;<br>
+												do {<br>
+												System.out.print("Ola " + x + "\n");
+												x++;<br>
+												}while( x < 20 ); </p>
+
+						</th>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal12">
+			<div class="modal-header">
+				<div class="modal-title">😀 JOptionPane Class 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+
+						<td rowspan="2"
+							style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; ">
+
+							<p style="padding: 1px;font-size:larger; text-align: center;">
+								<u>import javax.swing.JOptionPane;</u>
+							</p>
+							<img src="../content img/jpannel.png">
+							<img src="../content img/jannl.png" height="220px">
+						</td>
+						<td>
+						</td>
+
+					</tr>
+					<tr>
+
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>JoptionPane Atributos </u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+								JOptionPane.PLAIN_MESSAGE<br>
+								JOptionPane.ERROR_MESSAGE<br>
+								JOptionPane.INFORMATION_MESSAGE<br>
+								JOptionPane.WARNING_MESSAGE<br>
+								JOptionPane.QUESTION_MESSAGE<br>
+								JOptionPane.PLAIN_MESSAGE.<br>
+							</p>
+
+						</td>
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px;">
+							<h3 style="margin: 5px; text-align: center"><u>JoptionPane Atributos</u></h3>
+							<p style="padding: 1px; background-color: beige; margin:  1% 5%">
+
+								JOptionPane.showMessageDialog( null, "Olá Bomdia", "ola", );
+							</p>
+
+						</td>
+
+					</tr>
+				</table>
+
+
+			</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+		<div id="modal13">
+			<div class="modal-header">
+				<div class="modal-title">😀 Classes e Objectos 😀</div>
+				<button data-close-button class="close-btn">&times;</button>
+			</div>
+			<div class="modal_body">
+				<table style="height:100%; width:100%; ">
+					<tr style="   text-align: center; align-items: center;">
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">criar um
+							class</th>
+						<th style="background-color:#C9B467; height: 5vh; width:90vh; border-radius: 20px">criar um
+							Objecto</th>
+					</tr>
+					<tr style="   text-align: center; align-items: center;">
+						<td
+							style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; text-align: start; padding-left: 19%; ">
+							<br>public class Info {<br>
+							int x = 5; <br>
+							String Amigo = "Rajendra"<br>
+							String Nome = "Rafael"
+							} <br>
+
+						</td>
+						<td
+							style="background-color:#D2C182; height: 30vh; width:90vh; border-radius: 20px; text-align: start; padding-left: 15%; ">
+							public static void main(String[] args) { <br>
+							Info info = new Info(); <br>
+							System.out.println(Info.x); <br>
+							System.out.println(Info.Amigo);<br>
+							System.out.println(Info.Nome);<br>
+							} <br>
+						</td>
+					</tr>
+					<tr>
+						<td
+							style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px; padding-left: 12%;">
+							<img src="../content img/how does cass word.png" height="220" alt="work">
+						</td>
+						<td style="background-color:#D9CA96; height: 30vh; width:90vh;border-radius: 20px; ">
+
+							<h3 style="margin: 5px; text-align: center"><u>Exemplo</u></h3>
+							<p style="padding: 1px; background-color: beige; margin: 5px 5%">
+								public class Main{<br>
+								int num = 10; <br>
+								static void meuMethod() {<br>
+								System.out.println("olá Turma");<br>
+								} <br>
+
+								public static void main(String[] args) {<br>
+								meuMethod();<br>
+								Main main = new Main();<br>
+								System.out.println(main.num);
+
+								} <br>
+								} <br>
+							</p>
+
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+		<!-- from this line the modle or box start -->
+
+
+		<div id="overlay"></div> <!-- importanre overlayer-->
+		<script src="javascript.js"></script>
+	</main>
+</body>
+
+</html>
